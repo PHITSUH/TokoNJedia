@@ -1,0 +1,65 @@
+@font-face{
+    font-family: 'Mandala';
+    src: url('../assets/fonts/Mandala/Mandala-Regular.otf') format('opentype');
+}
+
+@font-face{
+    font-family: 'Mandala-bold';
+    src: url('../assets//fonts/Mandala/Mandala-Bold.otf') format('opentype');
+}
+
+body{
+    margin: 0;
+    height: 200vh;
+}
+
+footer{
+    display: flex;
+    position: absolute;
+    bottom: -200vh;
+    width: 100%;
+    justify-content: space-around;
+    height: 30%;
+    padding-top: 5vh;
+    border-top: 2px solid gray;
+}
+
+.links-container{
+    display: flex;
+}
+
+.links{
+    font-family: 'Mandala', 'Times New Roman';
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    white-space: nowrap;
+    margin-right: 100px;
+}
+
+.links p{
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.links a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: smaller;
+    color: gray;
+}
+
+.links a:hover{
+    color: rgb(70, 196, 70);
+    cursor: pointer;
+}
+
+img{
+    width: 25vw;
+}
+
+.t{
+    margin-right: 0;
+}

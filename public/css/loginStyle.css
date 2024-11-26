@@ -1,0 +1,106 @@
+@font-face{
+    font-family: 'Mandala';
+    src: url('../assets/fonts/Mandala/Mandala-Regular.otf') format('opentype');
+}
+
+@font-face{
+    font-family: 'Mandala-bold';
+    src: url('../assets//fonts/Mandala/Mandala-Bold.otf') format('opentype');
+}
+
+body{
+    font-family: sans-serif;
+}
+
+
+.logo {
+    font-family: 'Mandala', 'Times New Roman';
+    text-align: center;
+    color: rgb(70, 196, 70);
+    font-weight: bold;
+}
+
+.login-bg{
+    position: absolute;
+    width: 50vw;
+    top: 20%;
+    left: 25%;
+    z-index: -1;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+}
+
+.form-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20vh;
+    z-index: 2;
+
+    background-color: white;
+    /* box-shadow: 2px 2px 5px; */
+    width: 20vw;
+    align-items: center;
+    border-radius: 5px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.form-container h3{
+    margin: 0;
+    margin-bottom: 1.5vh;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.to-register{
+    text-align: center;
+    font-size: 1vw;
+    margin-bottom: 2vh;
+}
+
+.to-register a{
+    text-decoration: none;
+    color: rgb(70, 196, 70);
+}
+
+
+
+input{
+    width: 18vw;
+    height: 2vw;
+    border-radius: 5px;
+    border:0.5px solid gray;
+    font-size: 1vw;
+}
+
+.input{
+    margin-bottom: 4vh;
+    margin-left: 0.5vw;
+}
+
+/* .email-input-container{
+    margin-bottom: 4vh;
+} */
+
+.username-input-container{
+    margin-top: 4vh;
+}
+
+label{
+    font-size: 0.9vw;
+}
+
+button{
+    margin-top: 5vh;
+    background-color: rgb(70, 196, 70);
+    color: white;
+    width: 100%;
+    border: 0;
+    height: 4vh;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+

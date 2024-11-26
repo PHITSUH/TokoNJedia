@@ -1,0 +1,70 @@
+@font-face{
+    font-family: 'Mandala';
+    src: url('../assets/fonts/Mandala/Mandala-Regular.otf') format('opentype');
+}
+
+@font-face{
+    font-family: 'Mandala-bold';
+    src: url('../assets//fonts/Mandala/Mandala-Bold.otf') format('opentype');
+}
+
+body{
+    font-family: sans-serif;
+}
+
+
+.logo a{
+    font-family: 'Mandala', 'Times New Roman';
+    color: rgb(70, 196, 70);
+    font-weight: bold;
+    font-size: 2.2vw;
+    text-decoration: none;
+}
+
+.navbar-container{
+    padding-top: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid gray;
+    padding-bottom: 2vh;
+}
+
+.search-bar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar{
+    width:50vw;
+    height: 3vh;
+    border-radius: 5px;
+    border: 0.2px solid;
+}
+
+.cart-container img:first-child{
+    width: 2vw;
+}
+
+.cart-container img:last-child{
+    width: 1vw;
+}
+
+.merchant-button{
+    background: url('../assets/logo/ic-toped.jpg') no-repeat left;
+    background-size: 2vw;
+    height: 2.5vw;
+    padding-left: 2.5vw;
+    border: 0;
+    cursor:pointer;
+}
+
+.user-button{
+    background: url('../assets/logo/user.png') no-repeat left;
+    background-size: 2vw;
+    height: 2.5vw;
+    padding-left: 2.5vw;
+    border: 0;
+    cursor:pointer;
+}
